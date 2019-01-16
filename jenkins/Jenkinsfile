@@ -1,5 +1,5 @@
 pipeline {
-    agent none
+    agent none // no global agent
     stages {
         stage('Build') {
             agent {
